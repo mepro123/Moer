@@ -1,9 +1,12 @@
 #Persistent
 SetTimer, WatchGamepad, 10
 
-; Global variables for button states (replacing 'static')
+; Global variables for button states
 r2_was_down := false
 l2_was_down := false
+
+; === Exit Hotkey ===
+Numpad0::ExitApp  ; Press Numpad0 to exit the script completely
 
 WatchGamepad:
     ; === Stick movement ===
@@ -48,4 +51,4 @@ return
 
 ; === Face buttons ===
 Joy1::MouseClick, Left   ; A button
-Joy2::MouseClick, Right ; B button
+Joy2::MouseClick, Right  ; B button
