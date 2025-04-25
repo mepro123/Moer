@@ -1,6 +1,6 @@
-[https://Moer.Download/Redirect](https://github.com/mepro123/Moer/releases/)
+Download:  [https://Moer.Download/Redirect](https://github.com/mepro123/Moer/releases/)
 
-[https://Moer.download/Home](https://sites.google.com/view/moerdownload/home)
+Web:  [https://Moer.download/Home](https://sites.google.com/view/moerdownload/home)
 
 Moer 1.1 Update
 PC Support
