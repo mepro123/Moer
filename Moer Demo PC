@@ -1,0 +1,83 @@
+#Persistent
+SetTimer, WatchKeyboard, 1
+
+; Global variables for button states
+w_was_down := false
+a_was_down := false
+s_was_down := false
+d_was_down := false
+space_was_down := false
+q_was_down := false
+e_was_down := false
+f_was_down := false
+
+; === Exit Hotkey ===
+Numpad0::ExitApp  ; Press Numpad0 to exit the script completely
+
+WatchKeyboard:
+    ; === WASD Movement ===
+    w_is_down := GetKeyState("W", "P")
+    a_is_down := GetKeyState("A", "P")
+    s_is_down := GetKeyState("S", "P")
+    d_is_down := GetKeyState("D", "P")
+
+    ; Move up (W)
+    if (w_is_down) {
+        MouseMove, 0, -20, 0, R
+    }
+
+    ; Move left (A)
+    if (a_is_down) {
+        MouseMove, -20, 0, 0, R
+    }
+
+    ; Move down (S)
+    if (s_is_down) {
+        MouseMove, 0, 20, 0, R
+    }
+
+    ; Move right (D)
+    if (d_is_down) {
+        MouseMove, 20, 0, 0, R
+    }
+
+    ; === Spacebar → Jump (or action) ===
+    space_is_down := GetKeyState("Space", "P")
+    if (space_is_down && !space_was_down) {
+        ; Implement jump or action here
+        Send, {Space}
+        space_was_down := true
+    } else if (!space_is_down && space_was_down) {
+        space_was_down := false
+    }
+
+    ; === Q → Left Mouse Click ===
+    q_is_down := GetKeyState("Q", "P")
+    if (q_is_down && !q_was_down) {
+        Click, Down Left
+        q_was_down := true
+    } else if (!q_is_down && q_was_down) {
+        Click, Up Left
+        q_was_down := false
+    }
+
+    ; === E → Right Mouse Click ===
+    e_is_down := GetKeyState("E", "P")
+    if (e_is_down && !e_was_down) {
+        Click, Down Right
+        e_was_down := true
+    } else if (!e_is_down && e_was_down) {
+        Click, Up Right
+        e_was_down := false
+    }
+
+    ; === F → Middle Mouse Click ===
+    f_is_down := GetKeyState("F", "P")
+    if (f_is_down && !f_was_down) {
+        Click, Down Middle
+        f_was_down := true
+    } else if (!f_is_down && f_was_down) {
+        Click, Up Middle
+        f_was_down := false
+    }
+return
