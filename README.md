@@ -11,6 +11,8 @@
 
 ###  GAMEPADPLUS - UPDOWNLEFTRIGHT A, B
 
+##  Virus  Detection
+
 ###  Moer is safe dont worry.
 ###  It is made out of ahk script and you might get some security scan pop up thing just ignore it
 ###  This happens because the ahk script is complied with Ahk2Exe
