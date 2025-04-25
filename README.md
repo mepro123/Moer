@@ -1,4 +1,4 @@
-(https://github.com/mepro123/Moer/releases/)[Download]
+[https://github.com/mepro123/Moer/releases/](Download)
 
 Moer 1.1 Update
 PC Support
