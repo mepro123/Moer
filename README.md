@@ -6,7 +6,9 @@ Moer 1.1 Update
 PC Support
 
 Controls
+
 PC - WASD Q, E, F
+
 GAMEPADPLUS - UPDOWNLEFTRIGHT A, B
 
 Moer is safe dont worry.
