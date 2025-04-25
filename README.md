@@ -20,3 +20,5 @@
 
 ### VirusTotal PC Version: https://www.virustotal.com/gui/file/8837c551e2a798130663cf201ef1053fa5ef1b6e5beacfea940ad7e296889224?nocache=1
 ### VirusTotal GamePadPlus: https://www.virustotal.com/gui/file/68c3fb6ccd3464cd02c41772148d97fca574ef2d7567fe4d2eaaea0f1f7402bc?nocache=1
+### Triage PC Version: https://tria.ge/submit/250425-mx52paswg1
+### Triage GamePadPlus: https://tria.ge/submit/250425-mywveawps8
