@@ -1,4 +1,4 @@
-#  Download:  [https://Moer.Download/Redirect](https://github.com/mepro123/Moer/releases/)
+#  Download:  [https://Moer.download/Redirect](https://github.com/mepro123/Moer/releases/)
 
 #  Web:  [https://Moer.download/Home](https://sites.google.com/view/moerdownload/home)
 
